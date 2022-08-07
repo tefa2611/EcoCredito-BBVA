@@ -1,0 +1,253 @@
+body
+{
+    background: -webkit-linear-gradient(left, #072146, #4181B2, #369EAB, #072146);
+}
+.contenedor
+{
+    height: 545px;
+    width: 400px;
+    position: relative;
+    padding: 2%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor .fondo 
+{
+    width: 400px;
+    height: 545px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 30px;
+    background: #14AB74;
+    /*background: white;
+    background-image: linear-gradient(180deg, #00803c 0%, #ffffff 100%);*/
+}
+.contenedor .titulo
+{
+    position: absolute;
+    background: #035f66;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+.contenedor .titulo h1
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 7px;
+}
+.contenedor .gps
+{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+iframe
+{
+    margin-top: 0;
+    border-radius: 10px;
+}
+.info
+{
+    display: flex;
+    margin-top: 380px;
+    margin-left: 25px;
+}
+.info .lugar
+{
+    position: relative;
+    background: #14a1ab;
+    height: 60px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.info .lugar .icon
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    padding: 1%;
+}
+.info .lugar .icon img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info .lugar .hora
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info .lugar .hora h3
+{
+    font-size: 1em;
+    color: white;
+}
+.info .lugar .hora p
+{
+    margin-top: -15px;
+    font-weight: 500;
+    font-size: 0.7em;
+    color: white;
+}
+.navegation 
+{
+    position: relative;
+    width: 40px;
+    height: 70px;
+    background: #14a1ab;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+}
+.navegation.active
+{
+    width: 110px;   
+}
+.navegation span
+{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegation span:nth-child(1)
+{
+    transform: translateY(-12px);
+}
+.navegation span:nth-child(3)
+{
+    transform: translateY(12px);
+}
+.navegation.active span
+{
+    width: 0;
+    height: 0;
+    transition: 0.5s;
+}
+.navegation.active span:nth-child(1)
+{
+    transform: translateY(0) translateX(-20px);
+}
+.navegation.active span:nth-child(3)
+{
+    transform: translateY(0) translateX(30px);
+}
+.navegation span p
+{
+    font-size: 0em;
+    color: white;
+    transition: 0.5s;
+}
+.navegation.active span p
+{
+    font-size: 1.5em;
+    color: white;
+    margin-right: 6px;
+}
+.opciones
+{
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    background: white;
+    /*background: #00803c;*/
+    margin-top: 17px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.opciones ul
+{
+    display: flex;
+    width: 400px;
+}
+.opciones ul li
+{
+    list-style: none;
+    position: relative;
+    width: 110px;
+    height: 60px;
+    z-index: 2;
+}
+.opciones ul li a
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+.opciones ul li a .icon
+{
+    position: relative;
+    display: flex;
+    font-size: 1.5em;
+    color: #14AB74;
+}
+.opciones ul li a .text
+{
+    position: absolute;
+    margin-top: 40px;
+    color: #14AB74;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+}
+.circulo
+{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 65px;
+    width: 60px;
+    height: 60px;
+    background: rgba(69, 226, 134, 0.3);
+    border-radius: 100%;
+}
+.circulo1
+{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 175px;
+    width: 60px;
+    height: 60px;
+    background: rgba(69, 226, 134, 0.3);
+    /*background: rgba(255, 255, 255, 0.3);*/
+    border-radius: 100%;
+}
+.circulo2
+{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 285px;
+    width: 60px;
+    height: 60px;
+    background: rgba(69, 226, 134, 0.3);
+    border-radius: 100%;
+}

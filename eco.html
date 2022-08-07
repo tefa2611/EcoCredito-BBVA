@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBVA - EcoCredito</title>
+    <link rel="shortcut icon" href="img/logo 2.png">
+    <link rel="stylesheet" href="eco.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="fondo"></div>
+        <div class="titulo">
+            <h1>Conoce los puntos de recarga</h1>
+        </div>
+        <div class="gps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15907.434757771207!2d-74.18270045!3d4.6192877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1659897615797!5m2!1ses!2sco" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="info">
+            <div class="lugar">
+                <div class="icon">
+                    <img src="./img/car1.png">
+                </div>
+                <div class="hora">
+                    <h3>Punto de Recarga #1</h3>
+                    <p>De lunes a viernes<br>9:00am a 3:00pm</p>
+                </div>
+            </div>
+            <div class="navegation">
+                <span><p>2:36</p></span>
+                <span></span>
+                <span><p>min</p></span>
+            </div>
+        </div>
+        <div class="opciones">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="card-outline"></ion-icon>
+                        </span>
+                        <span class="text">Retira</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="wallet-outline"></ion-icon>
+                        </span>
+                        <span class="text">Cotiza</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="inicio.html">
+                        <span class="icon">
+                            <ion-icon name="arrow-undo-outline"></ion-icon>
+                        </span>
+                        <span class="text">Volver</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="circulo"></div>
+            <div class="circulo1"></div>
+            <div class="circulo2"></div>
+        </div>
+    </div>
+    <script>
+        let navegation = document.querySelector('.navegation');
+        navegation.onclick = function(){
+            navegation.classList.toggle('active')
+        }
+    </script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

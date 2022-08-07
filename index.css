@@ -1,0 +1,181 @@
+body
+{
+    background: -webkit-linear-gradient(left, #072146, #4181B2, #369EAB, #072146);
+}
+.contenedor
+{
+    height: 545px;
+    width: 400px;
+    position: relative;
+    padding: 2%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor .fondo img
+{
+    width: 400px;
+    height: 545px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+header
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+header .icono img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 27px;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+header ul
+{
+    display: flex;
+    margin-left: 130px;
+}
+header ul li
+{
+    list-style: none;
+    margin: 0 10px;
+}
+header ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.call
+{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    display: flex;
+    color: white;
+}
+.nombre
+{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 130px;
+    color: white;
+}
+.nombre .texto
+{
+    max-width: 800px;
+}
+.nombre .texto h1
+{
+    font-size: 2em;
+}
+.nombre .texto p
+{
+    font-size: 1.1em;
+}
+.boton
+{
+    background: #08b179;
+    color: white;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+.boton:hover
+{
+    background: #0dcf8e;
+}
+.banner
+{
+    position: relative;
+    width: 400px;
+    height: 60px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 370px;
+}
+.banner ul
+{
+    display: flex;
+    width: 350px;
+}
+.banner ul li
+{
+    list-style: none;
+    position: relative;
+    width: 70px;
+    height: 60px;
+    z-index: 2;
+}
+.banner ul li a
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+.banner ul li a .icon
+{
+    position: relative;
+    display: flex;
+    line-height: 30px;
+    font-size: 1.5em;
+    color: white;
+}
+.banner ul li a .text
+{
+    position: absolute;
+    margin-top: 60px;
+    color: white;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+}
+.circulo
+{
+    position: absolute;
+    margin-top: -5;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+}
+.circulo1
+{
+    position: absolute;
+    margin-top: -5;
+    margin-left: 120px;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+}
+.circulo2
+{
+    position: absolute;
+    margin-top: -5;
+    margin-left: 190px;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 100%;
+}
